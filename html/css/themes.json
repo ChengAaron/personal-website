@@ -1,0 +1,32 @@
+{
+    "olivia":{
+        "mods":"#2b2b2b",
+        "modtext":"#eebeb0",
+        "alphas":"#f1ede9",
+        "alphatext":"#2b2b2b",
+        "link1":"#eebeb0",
+        "link2":"#eebeb0",
+        "link3":"#eebeb0",
+        "link4":"#eebeb0"
+    },
+    "mizu":{
+        "mods":"#253646",
+        "modtext":"#f9f6f3",
+        "alphas":"#b6d9eb",
+        "alphatext":"#253646",
+        "link1":"#f9f6f3",
+        "link2":"#f9f6f3",
+        "link3":"#f9f6f3",
+        "link4":"#f9f6f3"
+    },
+    "oblivionhagoromo":{
+        "mods":"#464647",
+        "modtext":"#e3dcd0",
+        "alphas":"#e3dcd0",
+        "alphatext":"#606a6b",
+        "link1":"#008aba",
+        "link2":"#79c23c",
+        "link3":"#ad98c7",
+        "link4":"#fe4321"
+    }
+}
