@@ -22,9 +22,13 @@ body{
     font-family: "Space Mono";
 }
 
-.grid-container {
+.grid_container {
     display: grid;
     grid-template-columns: 16.67% 83.33%;
+}
+
+.logo_grid {
+
 }
 
 .sidenav {
@@ -33,7 +37,7 @@ body{
     grid-template-rows: 5% 10% 10% 10% 10% 10% 20% 10% 10% 5%;
 }
 
-.grid-block_10 {
+.grid_block_10 {
     background-color: var(--mods);
     color: var(--modtext);
     text-align: left;
@@ -41,7 +45,7 @@ body{
     padding-left: 20%;
 }
 
-.grid-block_20 {
+.grid_block_20 {
     background-color: var(--mods);
     color: var(--modtext);
     text-align: center;
@@ -66,7 +70,7 @@ body{
     display: inline-block;
 }
 
-.dropdown-content {
+.dropdown_content {
     display: none;
     position: absolute;
     background-color: #fff;
@@ -75,15 +79,15 @@ body{
     z-index: 1;
 }
 
-.dropdown-content a {
+.dropdown_content a {
     color: black;
     text-decoration: none;
     display: block;
 }
 
-.dropdown-content a:hover {background-color: #ddd;}
+.dropdown_content a:hover {background-color: #ddd;}
 
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown_content {display: block;}
 
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
 
