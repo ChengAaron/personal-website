@@ -20,6 +20,7 @@ body{
     padding: 0;
     margin: 0;
     font-family: "Space Mono";
+    animation: fade 2s;
 }
 
 .grid_container {
@@ -30,26 +31,44 @@ body{
 .logo_grid {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
+    background-color: var(--mods);
+}
+
+.logo_grid object {
+    display: block;
+    margin: auto;
 }
 
 .icon1 {
+    width: 55%;
     background-color: var(--mods);
     fill: var(--link1);
+    display: block;
+    margin: auto;
 }
 
 .icon2 {
+    width: 55%;
     background-color: var(--mods);
-    color: var(--link2);
+    fill: var(--link2);
+    display: block;
+    margin: auto;
 }
 
 .icon3 {
+    width: 55%;
     background-color: var(--mods);
-    color: var(--link3);
+    fill: var(--link3);
+    display: block;
+    margin: auto;
 }
 
 .icon4 {
+    width: 55%;
     background-color: var(--mods);
-    color: var(--link4);
+    fill: var(--link4);
+    display: block;
+    margin: auto;
 }
 
 img {
