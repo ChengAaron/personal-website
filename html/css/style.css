@@ -42,33 +42,45 @@ body{
 .icon1 {
     width: 55%;
     background-color: var(--mods);
-    fill: var(--link1);
     display: block;
     margin: auto;
+}
+
+.icon1 svg {
+    fill: var(--link1);
 }
 
 .icon2 {
     width: 55%;
     background-color: var(--mods);
-    fill: var(--link2);
     display: block;
     margin: auto;
+}
+
+.icon2 svg {
+    fill: var(--link2);
 }
 
 .icon3 {
     width: 55%;
     background-color: var(--mods);
-    fill: var(--link3);
     display: block;
     margin: auto;
+}
+
+.icon3 svg {
+    fill: var(--link3);
 }
 
 .icon4 {
     width: 55%;
     background-color: var(--mods);
-    fill: var(--link4);
     display: block;
     margin: auto;
+}
+
+.icon4 svg {
+    fill: var(--link4);
 }
 
 img {
@@ -86,6 +98,7 @@ img {
     background-color: var(--mods);
     color: var(--modtext);
     text-align: left;
+    font-weight: bold;
     font-size: 1.5rem;
     padding-left: 20%;
 }
