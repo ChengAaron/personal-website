@@ -3,10 +3,10 @@
     --modtext:#f9f6f3;
     --alphas:#b6d9eb;
     --alphatext:#253646;
-    --link-1:#f9f6f3;
-    --link-2:#f9f6f3;
-    --link-3:#f9f6f3;
-    --link-4:#f9f6f3;
+    --link1:#f9f6f3;
+    --link2:#f9f6f3;
+    --link3:#f9f6f3;
+    --link4:#f9f6f3;
 }
 
 html{
@@ -28,13 +28,39 @@ body{
 }
 
 .logo_grid {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
 
+.icon1 {
+    background-color: var(--mods);
+    fill: var(--link1);
+}
+
+.icon2 {
+    background-color: var(--mods);
+    color: var(--link2);
+}
+
+.icon3 {
+    background-color: var(--mods);
+    color: var(--link3);
+}
+
+.icon4 {
+    background-color: var(--mods);
+    color: var(--link4);
+}
+
+img {
+    display: block;
+    margin: auto;
 }
 
 .sidenav {
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: 5% 10% 10% 10% 10% 10% 20% 10% 10% 5%;
+    grid-template-rows: 5% 10% 10% 10% 10% 10% 20% 10% 5% 10%;
 }
 
 .grid_block_10 {
@@ -57,12 +83,13 @@ body{
     color: var(--alphatext);
 }
 
-.dropdown-button {
+.dropdown_button {
     background-color: var(--mods);
     color: var(--modtext);
     border: none;
     font-size: 0.875rem;
     font-family: "Space Mono";
+    display: inline-block;
 }
 
 .dropdown {
