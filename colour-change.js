@@ -1,7 +1,7 @@
 var root = document.querySelector(":root");
 let jsondata;
 
-fetch('https://gist.githubusercontent.com/ChengAaron/b61c74930ae0cedb6b4cb83308ed6203/raw/376818beccbb4a0c38d2262a34483a565d99063f/themes.json').then(function(response){
+fetch('https://gist.githubusercontent.com/ChengAaron/b61c74930ae0cedb6b4cb83308ed6203/raw/themes.json').then(function(response){
     return response.json();
 }).then(function(obj) {
     jsondata = obj;
